@@ -1,4 +1,15 @@
-new Typewriter('#typewriter', {
-    strings: ['钟典', '徐颖','Our Story Begins'],
-    autoStart: true,
-  });
+var typer = new Typewriter('#typewriter')
+typer.typeString('loading fonts')
+    .pauseFor(1000)
+    .typeString('.')
+    .pauseFor(2000)
+    .typeString('.')
+    .pauseFor(3000)
+    .typeString('.')
+    .pauseFor(4000)
+    .typeString('.')
+    .deleteAll()
+    .typeString('二零一零年 夏')
+    .pauseFor(2000)
+    .deleteAll()
+    .start()
