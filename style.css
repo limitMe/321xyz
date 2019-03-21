@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'ZiYin';   /*字体名称*/
+    src: url('cn.ttf');       /*字体源文件*/
+}
+
+@font-face {
+    font-family: 'ZiYin';   /*字体名称*/
+    src: url('en.ttf');       /*字体源文件*/
+}
+
+body {
+    background-color: rgb(219,217,211)
+}
+
+div {
+    font-family: 'ZiYin';
+    font-size: 2em;
+    text-align: center;
+}
+
+.footer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.75em;
+    color: #999;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.placeholder {
+    width: 100%;
+    clear: both;
+}
+
+.logo {
+    width: 100%;
+}
+
+.logo > img {
+    width: 100px;
+    height: 100px;
+}
